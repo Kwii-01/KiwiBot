@@ -1,0 +1,9 @@
+{
+    "token": "discord bot token",
+    "prefix": "prefix to call command",
+    "userAgent": "reddit user agent",
+    "clientId": "reddit app client id",
+    "clientSecret": "reddit app client secret",
+    "username": "reddit user id",
+    "password": "reddit user password"
+}

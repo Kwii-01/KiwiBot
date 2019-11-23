@@ -1,0 +1,27 @@
+{
+  "name": "kiwibot",
+  "version": "1.0.0",
+  "description": "Learning to make DiscordBot",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "github:discordjs/discord.js",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "snoowrap": "^1.20.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kw98/KiwiBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kw98/KiwiBot/issues"
+  },
+  "homepage": "https://github.com/Kw98/KiwiBot#readme"
+}

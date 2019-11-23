@@ -1,3 +1,7 @@
+# personnal
+config.json
+database_config.json
+
 # Logs
 logs
 *.log
