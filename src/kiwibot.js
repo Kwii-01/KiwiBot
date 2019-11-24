@@ -28,7 +28,6 @@ client.on('guildDelete', guild => {
   console.log(guild.name);
 });
 
-
 client.on('message', msg => {
   if (!msg.content.startsWith(conf.prefix))
     return;
