@@ -6,6 +6,8 @@ https://support.rackspace.com/how-to/installing-mysql-server-on-ubuntu/
 
 https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
 
+https://stackoverflow.com/questions/31875621/how-to-properly-return-a-result-from-mysql-with-node
+
 # reddit api / snoowrap:
 https://github.com/reddit-archive/reddit/wiki/API
 
@@ -26,3 +28,6 @@ https://discordpy.readthedocs.io/en/latest/discord.htm
 https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript/3196346-trop-classe-la-poo
 
 https://devdocs.io/javascript/
+
+# solution
+instead of calling reddit api just parse website page for mangakalot / mangadex

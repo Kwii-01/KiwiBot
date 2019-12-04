@@ -17,7 +17,7 @@ async function scrapeSubreddit() {
   let data = [];
 
   newPost.forEach(post => {
-    if (post.link_flair_text == "DISC")
+    if (post.link_flair_text.startWith == "DISC")
       data.push({
         title: post.title,
         url: post.url,

@@ -13,11 +13,10 @@ CREATE TABLE guilds (
     d_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     d_disc_id VARCHAR(100) NOT NULL,
     d_name VARCHAR(100) NOT NULL,
-    d_disc_channel VARCHAR(100),
-    d_enable_raw BOOLEAN NOT NULL,
+    d_disc_channel VARCHAR(100) DEFAULT NULL,
     -- d_enable_reupload BOOLEAN NOT NULL,
     d_createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    d_deletedAt TIMESTAMP,
+    d_deletedAt TIMESTAMP DEFAULT NULL,
     PRIMARY KEY (d_id)
 );
 
@@ -27,16 +26,6 @@ CREATE TABLE guilds_tags (
     d_enabled BOOLEAN NOT NULL,
     FOREIGN KEY (guild_id) REFERENCES guilds(d_id),
     FOREIGN KEY (tag_name) REFERENCES tags(d_name)
-);
-
-CREATE TABLE channels (
-    d_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-    d_disc_id VARCHAR(100) NOT NULL,
-    guild_id INT UNSIGNED NOT NULL,
-    d_createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    d_deletedAt TIMESTAMP,
-    PRIMARY KEY (d_id),
-    FOREIGN KEY (guild_id) REFERENCES guilds(d_id)
 );
 
 CREATE TABLE mangas (
